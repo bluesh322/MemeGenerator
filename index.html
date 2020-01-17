@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="display-1">GEN DAT MEME MY BOY</h1>
+    <h3 class="display-5">Put some stuff together and make dat meme</h3>
+    <form action="submit" id="memeForm">
+        <div class="form-group">
+            <label for="url">Image URL: </label>
+            <input class="form-control" id="url" type="url" placeholder="Give me an image url of a meme you want to generate" required>
+        </div>
+        <div class="form-group">
+            <label for="topText">TOP TEXT: </label>
+            <input class="form-control" id="topText" type="text" placeholder="[optional] Give me TOP TEXT you want to add">
+        </div>
+        <div class="form-group">
+            <label for="bottomText">BOTTOM TEXT: </label>
+            <input class="form-control" id="bottomText" type="text" placeholder="[optional] Give me BOTTOM TEXT you want to add">
+        </div>
+        <div class="form-group">
+            <input class="btn btn-primary" id="getMeme" type="submit" value="GET MEME">
+        </div> 
+    </form>
+
+    <div class="genMeme">
+
+    </div>
+</body>
+</html>
